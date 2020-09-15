@@ -158,7 +158,7 @@ window.onload = wrap_img;
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Jamison Moody &amp; Mingyan Zhao</p>
+<p>By Jamison Moody &amp; Mingyan Zhao</p>
 
 </div>
 </div>
@@ -427,7 +427,7 @@ Another example of game prediction comes from [2] where the authors use neural n
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Classify-Team-Stats-to-Determine-Game-Winner">Classify Team Stats to Determine Game Winner<a class="anchor-link" href="#Classify-Team-Stats-to-Determine-Game-Winner"> </a></h2><p>Once we had the away and home team stats, we could combine them into one feature vector and predict the game result. We tested many common machine learning classifiers and trained them on the team stats portion of our data set. Their results can be seen in following figure. The hyper-parameters were tuned using a 5-fold cross validation on all of the methods except XGBoost. We used a 80-20 train/validation split to train this method.</p>
+<h2 id="Classify-Team-Stats-to-Determine-Game-Outcomes">Classify Team Stats to Determine Game Outcomes<a class="anchor-link" href="#Classify-Team-Stats-to-Determine-Game-Outcomes"> </a></h2><p>Once we had the away and home team stats, we could combine them into one feature vector and predict the game result. We tested many common machine learning classifiers and trained them on the team stats portion of our data set. Their results can be seen in following figure. The hyper-parameters were tuned using a 5-fold cross validation on all of the methods except XGBoost. We used a 80-20 train/validation split to train this method.</p>
 <p><img src="/portfolio_blog/images/copied_from_nb/images/table2.png" alt="title" /></p>
 <p>The data split is as follows: We used the team game data from 2017 to July 7, 2019 as our training set. We used data from July 7, 2019 to December 31, 2019 as our test set. Note that this was different than our final model test set, because in our final model we combined player statistics before predicting game outcomes. In the end, a linear support vector classifier did best overall, and we are not sure why this is the case.</p>
 
