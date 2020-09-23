@@ -4,10 +4,10 @@ title: About Me
 permalink: /about/
 ---
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+![]({{site.baseurl}}/images/brick_wall_img.png "https://github.com/fastai/fastpages")
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+My name is Jamison Moody and I am currently a Master's Student at Brigham Young University studying Computer Science. I am passionate about changing the world for the better with artificial intelligence. I got my Bachelor Degree in Applied Math at BYU, so I am passionate about the math works behind Machine Learning. 
 
+Current research interests include Reinforcement Learning, Computer Vision, and Data Science.
 
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+In my spare time I love playing/watching basketball (as well as analyzing it) and creating board games. 
